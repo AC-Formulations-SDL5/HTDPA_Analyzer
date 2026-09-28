@@ -1,0 +1,141 @@
+{
+    "ordering": [
+        [
+            "A1",
+            "B1"
+        ],
+        [
+            "A2",
+            "B2"
+        ],
+        [
+            "A3",
+            "B3"
+        ],
+        [
+            "A4",
+            "B4"
+        ]
+    ],
+    "brand": {
+        "brand": "SDL5",
+        "brandId": []
+    },
+    "metadata": {
+        "displayName": "sdl5_4_channel_apparatus_12ul_90degree",
+        "displayCategory": "wellPlate",
+        "displayVolumeUnits": "µL",
+        "tags": []
+    },
+    "dimensions": {
+        "xDimension": 128,
+        "yDimension": 86,
+        "zDimension": 28
+    },
+    "wells": {
+        "A1": {
+            "depth": 22,
+            "totalLiquidVolume": 12,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 20,
+            "y": 58,
+            "z": 6
+        },
+        "B1": {
+            "depth": 22,
+            "totalLiquidVolume": 12,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 20,
+            "y": 29,
+            "z": 6
+        },
+        "A2": {
+            "depth": 22,
+            "totalLiquidVolume": 12,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 50,
+            "y": 58,
+            "z": 6
+        },
+        "B2": {
+            "depth": 22,
+            "totalLiquidVolume": 12,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 50,
+            "y": 29,
+            "z": 6
+        },
+        "A3": {
+            "depth": 22,
+            "totalLiquidVolume": 12,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 80,
+            "y": 58,
+            "z": 6
+        },
+        "B3": {
+            "depth": 22,
+            "totalLiquidVolume": 12,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 80,
+            "y": 29,
+            "z": 6
+        },
+        "A4": {
+            "depth": 22,
+            "totalLiquidVolume": 12,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 110,
+            "y": 58,
+            "z": 6
+        },
+        "B4": {
+            "depth": 22,
+            "totalLiquidVolume": 12,
+            "shape": "circular",
+            "diameter": 21,
+            "x": 110,
+            "y": 29,
+            "z": 6
+        }
+    },
+    "groups": [
+        {
+            "metadata": {
+                "wellBottomShape": "u"
+            },
+            "wells": [
+                "A1",
+                "B1",
+                "A2",
+                "B2",
+                "A3",
+                "B3",
+                "A4",
+                "B4"
+            ]
+        }
+    ],
+    "parameters": {
+        "format": "irregular",
+        "quirks": [],
+        "isTiprack": false,
+        "isMagneticModuleCompatible": false,
+        "loadName": "sdl5_4_channel_apparatus_12ul_90degree"
+    },
+    "namespace": "custom_beta",
+    "version": 1,
+    "schemaVersion": 2,
+    "cornerOffsetFromSlot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    }
+}
