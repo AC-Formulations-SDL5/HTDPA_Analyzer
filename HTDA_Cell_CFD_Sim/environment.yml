@@ -1,0 +1,15 @@
+# Conda environment for the HTDA cell CFD simulation (NVIDIA Warp FEM).
+#   conda env create -f environment.yml
+#   conda activate htda-cfd
+name: htda-cfd
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - matplotlib>=3.8
+  - ipykernel          # run the notebook in Jupyter / VS Code
+  - jupyterlab
+  - pip
+  - pip:
+      - warp-lang>=1.13  # NVIDIA Warp (includes warp.fem); tested with 1.13.0
