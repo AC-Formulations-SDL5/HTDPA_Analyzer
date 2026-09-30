@@ -1,22 +1,21 @@
-# HTDPA Analyzer
-
-**[Open the HTDA demonstration video](media/htda-demo_cmprsd.mp4)**
-
-<video autoplay muted loop playsinline controls width="100%" poster="media/logo.png">
-  <source src="./media/htda-demo_cmprsd.mp4" type="video/mp4">
-  <a href="./media/htda-demo_cmprsd.mp4">Open the HTDA demonstration video</a>
-</video>
-
 <p align="center">
   <img src="media/logo.png" alt="Self-Driving Laboratory, Acceleration Consortium, University of Toronto" width="420">
 </p>
+
+<p align="center">
+  <img src="media/HTDA_Demo.gif" alt="HTDA demonstration" width="100%">
+</p>
+
+**[Open the full-resolution HTDA demonstration video](media/HTDA_demo.mp4)**
+
+# HTDPA Analyzer
 
 **Self-Driving Laboratory (SDL5) Formulation**  
 **Acceleration Consortium - University of Toronto**
 
 This repository contains the data, software, device designs, laboratory automation, and computational analyses supporting a scientific manuscript submitted to *Digital Discovery*. It is organized as a data-availability and reproducibility package for the high-throughput diffusion/permeation apparatus (HTDPA) and its self-driving laboratory workflow.
 
-> **Video behavior:** The demonstration is placed first and requests autoplay, mute, looping, and inline playback. Browsers and services such as GitHub may block autoplay or sanitize the HTML video element; the linked local MP4 remains available as a fallback. Opening a repository does not universally force a README to open or a video to play, so playback still depends on the host and browser.
+> **Demo behavior:** The animated GIF is placed immediately below the logo and plays automatically in rendered Markdown. The MP4 link provides the full-resolution fallback.
 
 ## Repository map
 
@@ -28,7 +27,7 @@ This repository contains the data, software, device designs, laboratory automati
 | [`CAD_files/`](CAD_files/) | STL geometry for the HTDPA cell, reciprocating pump, holders, and related components. |
 | [`UI/`](UI/) | Streamlit dashboard for release-profile QC, kinetic fitting, and manuscript summary figures. |
 | [`HTDA_Cell_CFD_Sim/`](HTDA_Cell_CFD_Sim/) | Transient Warp simulation, vorticity sweep, post-processing, notebook, and Ansys Workbench/Fluent files. |
-| [`media/`](media/) | Repository presentation assets: the HTDA demonstration video and SDL5/Acceleration Consortium logo. |
+| [`media/`](media/) | Repository presentation assets: the animated HTDA demonstration, full-resolution video, and SDL5/Acceleration Consortium logo. |
 
 ## Reproducibility workflow
 
