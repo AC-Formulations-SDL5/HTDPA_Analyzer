@@ -1,7 +1,10 @@
 # HTDPA Analyzer
 
-<video src="media/htda-demo_cmprsd.mp4" autoplay muted loop playsinline controls width="100%">
-  <a href="media/htda-demo_cmprsd.mp4">Open the HTDA demonstration video</a>
+**[Open the HTDA demonstration video](media/htda-demo_cmprsd.mp4)**
+
+<video autoplay muted loop playsinline controls width="100%" poster="media/logo.png">
+  <source src="./media/htda-demo_cmprsd.mp4" type="video/mp4">
+  <a href="./media/htda-demo_cmprsd.mp4">Open the HTDA demonstration video</a>
 </video>
 
 <p align="center">
