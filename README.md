@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="media/HTDA_Demo.gif" alt="HTDA demonstration" width="100%">
+  <img src="media/HTDA_Demo_web.gif" alt="HTDA demonstration" width="100%">
 </p>
 
 **[Open the full-resolution HTDA demonstration video](media/HTDA_demo.mp4)**
@@ -15,7 +15,7 @@
 
 This repository contains the data, software, device designs, laboratory automation, and computational analyses supporting a scientific manuscript submitted to *Digital Discovery*. It is organized as a data-availability and reproducibility package for the high-throughput diffusion/permeation apparatus (HTDPA) and its self-driving laboratory workflow.
 
-> **Demo behavior:** The animated GIF is placed immediately below the logo and plays automatically in rendered Markdown. The MP4 link provides the full-resolution fallback.
+> **Demo behavior:** The web-optimized animated GIF is placed immediately below the logo and plays automatically in rendered Markdown. The MP4 link provides the full-resolution fallback; the original source GIF is retained in `media/HTDA_Demo.gif`.
 
 ## Repository map
 
@@ -27,7 +27,7 @@ This repository contains the data, software, device designs, laboratory automati
 | [`CAD_files/`](CAD_files/) | STL geometry for the HTDPA cell, reciprocating pump, holders, and related components. |
 | [`UI/`](UI/) | Streamlit dashboard for release-profile QC, kinetic fitting, and manuscript summary figures. |
 | [`HTDA_Cell_CFD_Sim/`](HTDA_Cell_CFD_Sim/) | Transient Warp simulation, vorticity sweep, post-processing, notebook, and Ansys Workbench/Fluent files. |
-| [`media/`](media/) | Repository presentation assets: the animated HTDA demonstration, full-resolution video, and SDL5/Acceleration Consortium logo. |
+| [`media/`](media/) | Repository presentation assets: optimized and source GIFs, full-resolution video, and SDL5/Acceleration Consortium logo. |
 
 ## Reproducibility workflow
 
