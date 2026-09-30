@@ -94,6 +94,6 @@ Please cite the associated *Digital Discovery* manuscript and identify the repos
 Acceleration Consortium  
 University of Toronto
 
-Frantz Le Devedec (frantz.ledevedec@utoronto.ca)
-Mahdi Rastegardoost (m.rastegardoost@utoronto.ca)
-Zeqing Bao (zeqing.bao@utoronto.ca)
+- Frantz Le Devedec (frantz.ledevedec@utoronto.ca)
+- Mahdi Rastegardoost (m.rastegardoost@utoronto.ca)
+- Zeqing Bao (zeqing.bao@utoronto.ca)
