@@ -64,9 +64,7 @@ The dashboard accepts the example Excel workbooks and can export analysis summar
 ## CFD and flow-design analysis
 
 <p align="center">
-  <video src="media/CFD_Simulation.mp4" autoplay loop muted playsinline controls width="100%">
-    Your browser does not support embedded video. <a href="media/CFD_Simulation.mp4">Open the CFD simulation video</a>.
-  </video>
+  <img src="media/CFD_Simulation.gif" alt="CFD simulation of reciprocating flow" width="100%">
 </p>
 
 **[Open the CFD simulation video](media/CFD_Simulation.mp4)**
