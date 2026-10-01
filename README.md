@@ -15,8 +15,6 @@
 
 This repository contains the data, software, device designs, laboratory automation, and computational analyses supporting a scientific manuscript submitted to *Digital Discovery*. It is organized as a data-availability and reproducibility package for the high-throughput diffusion/permeation apparatus (HTDPA) and its self-driving laboratory workflow.
 
-> **Demo behavior:** The quality-optimized animated GIF is placed immediately below the logo and plays automatically in rendered Markdown. The MP4 link provides the full-resolution fallback; the original source GIF and smaller web preview are retained in `media/`.
-
 ## Repository map
 
 | Path | Contents |
