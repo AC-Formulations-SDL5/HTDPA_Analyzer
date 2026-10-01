@@ -26,6 +26,7 @@ This repository contains the data, software, device designs, laboratory automati
 | [`Programming/OT_LabWare/`](Programming/OT_LabWare/) | Custom labware definitions used by the OT-2 workflow. |
 | [`CAD_files/`](CAD_files/) | STL geometry for the HTDPA cell, reciprocating pump, holders, and related components. |
 | [`UI/`](UI/) | Streamlit dashboard for release-profile QC, kinetic fitting, and manuscript summary figures. |
+| [`HTDPA_RMSP_Files/`](HTDPA_RMSP_Files/) | RMSP Figure 2 and Figure S2 analyses, source data, generated figures, and post-equilibration validation workflow. |
 | [`HTDA_Cell_CFD_Sim/`](HTDA_Cell_CFD_Sim/) | Transient Warp simulation, vorticity sweep, post-processing, notebook, and Ansys Workbench/Fluent files. |
 | [`media/`](media/) | Repository presentation assets: quality-optimized and source GIFs, full-resolution video, and SDL5/Acceleration Consortium logo. |
 
@@ -62,6 +63,14 @@ The dashboard accepts the example Excel workbooks and can export analysis summar
 
 ## CFD and flow-design analysis
 
+<p align="center">
+  <video src="media/CFD_Simulation.mp4" autoplay loop muted playsinline controls width="100%">
+    Your browser does not support embedded video. <a href="media/CFD_Simulation.mp4">Open the CFD simulation video</a>.
+  </video>
+</p>
+
+**[Open the CFD simulation video](media/CFD_Simulation.mp4)**
+
 The CFD subproject includes a GPU-capable NVIDIA Warp implementation of a transient 2D reciprocating-flow model, a flow-rate sweep, post-processing scripts, a Jupyter notebook, cached numerical outputs, and an Ansys Workbench/Fluent 3D design study. The precomputed outputs are included so the results can be inspected without rerunning the simulations.
 
 ```powershell
@@ -76,6 +85,7 @@ See [`HTDA_Cell_CFD_Sim/README.md`](HTDA_Cell_CFD_Sim/README.md) for model param
 ## Data availability and provenance
 
 - Raw example workbooks are retained in `Example_data/`.
+- RMSP source data, analysis scripts, figures, and validation outputs are retained in `HTDPA_RMSP_Files/`.
 - Analysis and simulation scripts are retained alongside their cached outputs and notebooks.
 - CAD and mesh/project files are retained in `CAD_files/` and `HTDA_Cell_CFD_Sim/Workbench/`.
 - Protocol and labware definitions are retained in `Programming/`.
