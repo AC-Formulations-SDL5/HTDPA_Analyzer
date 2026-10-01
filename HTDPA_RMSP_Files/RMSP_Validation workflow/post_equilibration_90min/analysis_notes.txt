@@ -1,0 +1,49 @@
+Post-equilibration descriptive statistics
+Source: 20260916_1um_MBP23_30rpm_CH1_CH3_CH4_corrected.csv
+Window: elapsed time >=90 min, relative to first recorded timestamp.
+Actual selected range: 90.002650–436.082117 min.
+Samples per channel: 20761. Channels: CH1, CH3, CH4; CH2 is absent.
+Data are already corrected; no additional correction factors applied.
+No missing entries; timestamps strictly increasing. Maximum sampling interval: 1.057 s.
+90 minutes is a user-selected cutoff, not a fitted or verified equilibration time.
+
+Cycle detection: negative-to-positive transitions with hysteresis at 20% of
+median nonzero absolute flow (thresholds in mL/min: {'CH1': np.float64(8.008000000000001), 'CH3': np.float64(8.76), 'CH4': np.float64(8.65)}).
+Each cycle extends from one positive threshold crossing to the next.
+Only fully bounded cycles starting >=90 min are included. Leading/trailing
+partial cycles are excluded. At least 3 samples per polarity are required.
+Q+ = mean of upper half (>=median) of positive phase samples above threshold.
+Q− = mean of lower half (<=median) of negative phase samples below -threshold.
+P–P = Q+ − Q−; symmetry = Q+/|Q−|, calculated per cycle before summarizing.
+This explicit plateau estimator is comparable in concept to the S2 upper/lower
+half method but uses hysteresis to avoid transition noise.
+Upper/lower decile estimates are also supplied, matching the decile concept
+in the existing plotting script. Its imported helper is absent, so exact
+reproduction of its unpublished cycle algorithm is not claimed.
+Raw peak-to-peak = per-cycle max minus min; distinct from plateau P–P.
+Volumes integrate clipped positive/negative flow over each cycle with the
+trapezoidal rule; pull volume is a positive magnitude.
+
+SD is sample SD (ddof=1); CV=100*SD/abs(mean). Temperature CV uses Celsius,
+matching the prior figure; this CV depends on the temperature scale.
+Temperature/sample-flow statistics use every selected sample, including
+transitions. Flow waveform SD/CV is distinct from cycle-to-cycle plateau CV;
+signed-flow CV can be large because its mean is near zero.
+Inter-channel statistics use the three channel means (n=3), not pooled samples.
+Temperature differences use paired simultaneous samples.
+30-minute windows assign cycles by cycle start, with a shorter final window.
+No inter-day CV is available from this single recording. Repeated time samples
+and cycles are not independent biological/experimental replicates; no naive
+confidence intervals or significance tests are reported.
+
+Channel summary:
+channel  n_samples  n_cycles  temperature_mean_C  temperature_sd_C  temperature_cv_percent  Q_plus_mean  Q_plus_sd  Q_plus_cv_percent  Q_minus_mean  Q_minus_sd  Q_minus_cv_percent  P_to_P_mean  P_to_P_sd  P_to_P_cv_percent  symmetry_mean  symmetry_sd  symmetry_cv_percent  period_s_mean  period_s_sd  period_s_cv_percent
+    CH1      20761       848             29.1045            0.6349                  2.1814      40.4458     1.2396             3.0648      -42.7489      0.6363              1.4884      83.1947     1.6356             1.9659         0.9461       0.0258               2.7254        24.4526       0.4972               2.0332
+    CH3      20761       848             28.2498            0.5802                  2.0537      43.8108     0.5403             1.2333      -49.9699      0.5801              1.1608      93.7807     1.0906             1.1629         0.8767       0.0048               0.5518        24.4526       0.4972               2.0332
+    CH4      20761       848             27.2620            0.5141                  1.8857      43.3686     0.9165             2.1132      -46.2191      0.7579              1.6398      89.5877     1.6483             1.8399         0.9383       0.0075               0.7992        24.4526       0.4979               2.0362
+
+Temperature differences:
+comparison unit     n   mean     sd  cv_percent  median    min    q25    q75    max
+ CH1 − CH3   °C 20761 0.8547 0.1425     16.6741  0.8000 0.3000 0.7000 1.0000 1.3000
+ CH1 − CH4   °C 20761 1.8425 0.1923     10.4385  1.8000 1.4000 1.7000 2.0000 2.4000
+ CH3 − CH4   °C 20761 0.9878 0.1045     10.5838  1.0000 0.7000 0.9000 1.1000 1.5000

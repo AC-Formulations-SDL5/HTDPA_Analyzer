@@ -1,0 +1,35 @@
+Figure S2 regeneration
+
+Run: MPLCONFIGDIR=/tmp/figure_s2_mpl python3 regenerate_figure_s2.py
+
+A: Supplied waveform_descriptors_by_cycle_HTDPA_3h_140726.csv;
+mean ± sample SD across 1,383 cycles per channel. Pull is plotted as its
+absolute magnitude. Symmetry is the mean of the supplied per-cycle ratios.
+B: Within-day CV = 100 × sample SD / absolute mean of cycle descriptors
+for each channel on 140726. Inter-day CV uses the two channel-specific
+daily means (140726 and 150726; n=2 days), not pooled cycles. The second
+day contains 924 cycles per channel. Inter-day CV is descriptive with only
+two days available. This definition may differ from the original picture.
+C–D: All available nonmissing temperatures in each workbook sheet.
+Channel bars: mean ± sample SD over time; CV = 100 × SD / mean in °C.
+Inter bar: mean ± sample SD of the four channel means; its CV represents
+inter-channel variation. Celsius-based CV is retained to match the requested
+figure; its numerical value depends on the temperature scale.
+The assignment 140726 = before and 150726 = after follows the existing
+script and reference image; the workbook does not independently label the
+adjustment. Record durations are approximately 188.25 and 125.92 minutes.
+E: Normalized flow and recorded temperature from the 150726 workbook sheet,
+45–46 minutes, matching the reference image window. RPM=30 and SFL3X are
+provided by the requested caption, not independently verified metadata.
+
+Caption:
+(A) Push (Q+, solid) and pull (|Q−|, hatched) plateau flow, peak-to-peak
+amplitude (P–P), and push–pull symmetry (Q+/|Q−|) per channel for the
+140726 recording following 3 h equilibration. Bars show mean ± SD across
+cycles; the dashed line marks perfect symmetry.
+(B) Within-day CV of cycle descriptors on 140726 and inter-day CV of the
+two daily means (140726 and 150726), per channel.
+(C,D) Temperature mean ± SD and CV before and after fluidic adjustment,
+respectively. Inter denotes variation across the four channel means.
+(E) One-minute zoom of normalized flow (blue) and temperature (red) recorded
+using the SFL3X sensor at 30 RPM, shown separately for each channel.
